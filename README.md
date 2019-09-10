@@ -16,9 +16,9 @@
 
 ## FAQ
 
-> Posso adicionar os arquivos com o nome diferente do meu login? (ex.: `index.html`, `styles.css`, imagens...)
+> Posso adicionar os arquivos com o nome diferente do meu login? (ex.: `pagina2.html`, `styles.css`, imagens...)
 
-Você pode adicionar outros arquivos no seu projeto, desde que a página inicial do seu projeto seja a `seulogin.html` e a folha de estilos principal seja a `seulogin.css`.
+Você pode adicionar outros arquivos no seu projeto, desde que a página inicial do seu projeto seja a `index.html` e a folha de estilos principal seja a `seulogin.css`.
 
 > Posso usar alguma framework ou biblioteca externa, como Bootstrap, Angular ou React?
 
@@ -31,3 +31,5 @@ Não, mas poderemos sugerir ajustes caso encontremos tais erros na correção.
 > Tenho direito a quantos pull requests antes de descontarem pontos na minha nota pelos meus erros?
 
 Você tem direito a até 3 pull requests sem descontar os erros em sua nota. A partir do 4º, cada erro descrito nas especificações custará um ponto.
+
+## [Especificação](https://github.com/monitoria-ic-cc-ufpe/Projeto_WebDev_2019.2/blob/master/Especifica%C3%A7%C3%A3o.pdf)
