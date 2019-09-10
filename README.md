@@ -4,7 +4,7 @@
 1. Realize o fork do repositório para a sua conta;
 2. Clone o seu repositório para uma pasta de sua preferência em seu computador;
 3. Crie uma pasta com o seu login;
-4. Adicione o conteúdo do seu projeto na pasta (lembre-se de que são necessários pelo menos dois arquivos, `seulogin.html` e `seulogin.css`, sendo que o HTML precisa estar referenciando o CSS);
+4. Adicione o conteúdo do seu projeto na pasta (lembre-se de que são necessários pelo menos dois arquivos, `index.html` e `seulogin.css`, sendo que o HTML precisa estar referenciando o CSS);
 5. Adicione as alterações no repositório e realize o commit e o push;
 6. Solicite o pull request através do GitHub.
 
