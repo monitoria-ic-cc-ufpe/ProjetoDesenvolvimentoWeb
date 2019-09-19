@@ -1,0 +1,256 @@
+
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    animation-name: chegando;
+    animation-duration: 5s;
+    animation-direction: right;
+    animation-timing-function: ease;
+
+}
+a{
+    color:white;
+}
+
+@keyframes chegando{
+    from{
+        font-size: 16px;
+
+    }to{
+        font-size: 19px
+
+    }
+}
+
+.perfil{
+    width: 355px;
+    float: left;
+    border:10px solid #999;
+    border-radius: 20%;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+
+}
+h2{
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 80px;
+    padding: 20px;
+}
+footer{
+    clear: both;
+    background-color: grey;
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face{
+    font-family: GFD;
+    src:url('GFD.ttf')
+}
+#principal{
+    background-image: url('back.jpeg');
+    clear: both;
+    background-size: 100%;
+    min-height: 800px;
+    width: 100%;
+    float: center;
+    padding: 100px 0 0 0;
+}
+#menu{
+    margin-top: 30px;
+    float: right;
+    font-family: GFD;
+    font-size: 20px;
+}
+
+#menu a{
+    padding: 52px 20px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px #11111;
+}
+#nome{
+    font-family: GFD;
+    float: left;
+}
+#esquerda{
+    float: left;
+    width: 40%;
+    float: center;
+}
+#direita{
+    width:55%;
+    float: right;
+}
+lI{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+ 
+#menu a:hover{
+    background-color: black;
+    color: grey;
+}
+
+.container{
+    width: 950px;
+    margin: auto;
+    float: center;;
+}
+.efeito{
+
+height: 410px;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 100px 0px 100px 0px;
+}
+.efeito2{
+
+    height: 410px;
+        background-color: rgba(0, 0, 0, 0.616);
+        padding: 100px 0px 150px 0px;
+    }
+#direita2{
+    width: 55%;
+    float: right;
+}
+#esquerda2{
+    width: 40%;
+    float: left;
+}
+
+#imgcin{
+    width: 400px;
+    float: right;
+    border:10px solid #999;
+    border-radius: 10%;
+    animation-name: chegando2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes chegando2{
+    from{
+        width: 350px;
+
+    }to{
+        width: 400px
+
+    }
+}
+#instafoto{
+    width: 100px;
+    padding: 20px;
+}
+#ttfoto{
+    width: 100px;
+    padding: 20px;
+}
+#ghfoto{
+    width: 100px;
+    padding: 20px;
+}
+#instadiv{
+    color: black;
+    font-family: GFD;
+    font-size: 40px;
+
+
+}
+#ttdiv{
+    color: black;
+    font-family: GFD;
+    font-size: 40px;
+
+
+}
+#ghdiv{
+    color: black;
+    font-family: GFD;
+    font-size: 40px;
+
+
+}
+
+
+spam{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#pretos{
+    color: black;
+    padding: 20px;
+    justify-content: center;
+}
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: grey;
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
