@@ -5,6 +5,8 @@ header h1 {
 }
 header img {
     float: right;
+    margin-top: 1cm;
+    margin-right: -2cm;
 }
 header img:hover{
     float: right;
