@@ -1,0 +1,62 @@
+h1#cabecalho { 
+    font-family:Impact;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+body#fundo {
+    background-image: url("fundo.png");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    background-size: unset;
+    background-color: lightblue;
+}
+.perfil {
+    text-align: left;
+    size: 50%;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.descricao {
+    text-align: center;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    margin-left: 30px;
+    animation-name: surgir;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+.ftperfil {
+    border-radius: 100px;
+
+}
+.links1 {
+    text-align: left;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    margin-left: 30px;
+    font-style: normal;
+    animation-name: surgir;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+@keyframes surgir {
+    from { margin-left: 0px;
+    }
+    to { margin-left: 30px;
+    }
+}
+.disciplinas {
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 30px;
+    margin-top: -300px;
+    width: 300px;
+    float: right;
+}
