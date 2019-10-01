@@ -1,0 +1,68 @@
+﻿body{
+    width: 95%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+    
+
+}
+main {
+background: #0000008f;
+padding:5px 40px;
+margin-top: 20px;
+margin-bottom: 30px;
+border-radius:20px;
+}
+img {      
+        border-radius: 50%;        
+    }
+    section{
+        margin: 30px auto;
+        width: 700px;
+        height: -10000px;
+       }
+       
+       .rede{
+        width: 150px;
+        height: 150px;
+        float: right;
+        margin-right: -10px;
+        transition: all 0.4s ease-out;
+        border-radius: 50%;
+       }
+       
+       .rede:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+        box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+       }
+       
+       .rede#facebook{
+        background-color: #74057e;
+       
+       }
+       
+       .rede#instagram{
+        background-color: #74057b;
+       }
+       
+       .icone{
+        margin:0px auto;
+        padding: 35px;
+        width: 80px;
+       }    
+       .profile{
+        font-family: 'Notable', sans-serif;
+        color: #74057b;
+        
+       
+
+       
+       }
+
+
+
+
