@@ -1,0 +1,80 @@
+
+body {
+    background-position: center center;
+    background-size: cover;
+    background-color: #f5f8f5f8;
+   
+  
+
+}
+
+#nome{
+    text-align: center;
+    animation: spin 10s linear infinite;
+    font-family: 'Mansalva', cursive;
+    border: 7px solid gray;
+    background-color: red;
+    font-size: 150px;
+    border-radius: 4px;
+    animation-name: cores;
+    animation-duration: 4s;
+}
+@keyframes cores {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+
+
+#links{
+   margin-bottom: 10%;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+}#paragrafos{
+    margin-top: 10%;
+    font-family: 'Lato', sans-serif;
+    color: #000080;
+    font-size: 50px;
+}
+h3{
+    color: #000080;
+    font-size: 80px;
+}
+
+
+.citi{
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+#objetivos img{
+margin: 3em;
+}
+.in img{
+    
+        max-width: 150px;
+        max-height: 150px;
+        width: auto;
+        height: auto;
+    
+}
+h4{
+    font-size: 100px;
+    color: #000080;
+}
+
+#teste{
+    
+    text-align: right;
+   
+}
+.sociais{
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+     font-size: 60px;
+    color: #000080;
+}
