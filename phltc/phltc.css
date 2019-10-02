@@ -1,0 +1,48 @@
+body{
+    background-image: url("wpp.png");
+    background-repeat: no-repeat;
+    background-size: 1980px 1950px;
+    background-position: center;
+}
+#h{
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+    color:rgba(177, 179, 114, 0.877)
+}
+#txt {
+    color:rgb(53, 78, 78);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.a{
+    height:200px; width:200px;
+   float: right;
+}
+#txt{
+    font-size: 110%;
+    color: rgba(111, 151, 110, 0.966);
+}
+.list{
+    font-family: 'Turret Road', cursive;
+    color:rgba(177, 179, 114, 0.877);
+    font-size: 110%;
+    text-align:left;
+}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+#find{
+    font-family: 'Turret Road', cursive;
+    float:right;
+    color: white;
+    -webkit-animation:scale-up-center .5s cubic-bezier(.785,.135,.15,.86) 5s infinite alternate-reverse;animation:scale-up-center .5s cubic-bezier(.785,.135,.15,.86) 5s infinite alternate-reverse
+
+
+    
+}
+.findx{
+    clear: right;
+    height:50px; width:50px;
+    display: table;
+    margin-left: auto;
+    margin-right: 3px;
+
+}
