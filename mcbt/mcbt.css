@@ -1,0 +1,77 @@
+body {
+      background-color: dimgrey;
+} 
+p1{
+        float: right;
+        font-size: 200%;
+}
+h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+ 
+#cinza {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+p,ol {
+    font-family: courier; 
+   font-size: 110%;
+  
+}
+ #blau {
+     font-family: 'Times New Roman', Times, serif;
+     background-color: rgb(83, 93, 112);
+     text-align: center;
+     padding: 40px;
+     -webkit-animation: flip-scale-2-hor-top 1s linear 1s infinite both;
+	        animation: flip-scale-2-hor-top 1s linear 1s infinite both;
+ 
+}
+@-webkit-keyframes flip-scale-2-hor-top {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    50% {
+      -webkit-transform: translateY(-50%) rotateX(-90deg) scale(2);
+              transform: translateY(-50%) rotateX(-90deg) scale(2);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    100% {
+      -webkit-transform: translateY(-100%) rotateX(-180deg) scale(1);
+              transform: translateY(-100%) rotateX(-180deg) scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  @keyframes flip-scale-2-hor-top {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    50% {
+      -webkit-transform: translateY(-50%) rotateX(-90deg) scale(2);
+              transform: translateY(-50%) rotateX(-90deg) scale(2);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    100% {
+      -webkit-transform: translateY(-100%) rotateX(-180deg) scale(1);
+              transform: translateY(-100%) rotateX(-180deg) scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  video {
+        position: absolute;
+        left: 50%;
+        transform:translateX(-50%);
+    }
+  
