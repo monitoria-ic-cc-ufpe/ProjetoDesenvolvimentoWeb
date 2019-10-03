@@ -1,0 +1,200 @@
+.tempo
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	}
+.banda
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}	
+.comida
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}
+.jogo
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}
+.avlc
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	    
+
+	}
+.calculo
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}
+.ip
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+		
+}
+.ic
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}
+.md
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	}
+body ul li 
+	{
+		list-style: none;
+
+	}	
+body header div h1
+	{
+		padding-left: 13px;
+	}
+h2	
+	{
+		padding-left: 30px;
+	}
+h4
+	{
+		padding-left: 35px;
+	}
+.img 
+	{
+		position: absolute;
+		padding-left: 310px;
+		width: 60%;
+		image-orientation: center;
+		animation: bounce .48s alternate infinite ease-in;
+		
+	  
+	  
+	}
+	  
+	  @media screen and (min-width:701px) {
+		  @keyframes bounce {
+			  0% {
+				  transform: translateY(-5%);
+			  }
+			  100% {
+				  transform: translateY(10%);
+			  }
+		  }
+		}
+		
+	
+.img1
+	{
+		position: absolute;
+		margin-left: 50px;
+		width: 42%;
+		box-sizing: content-box;
+		vertical-align: baseline;
+		height: 43%;
+		
+		
+		
+
+	}
+.img2
+	{
+		display: inline-block;
+		margin-left: 950px;
+		width: 39.4%;
+		box-sizing: content-box;
+		vertical-align: baseline;
+		
+		
+
+	}
+.img3	
+	{
+			
+		
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		height: 500px;
+		
+
+	}	
+.img4
+	{
+		
+		display: block;
+		width: 45%;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+.img5
+	{
+		
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 45%;
+	
+
+	}	
+h3
+	{
+		padding-left: 35px;
+	}
+h6
+	{
+		color: lightgray;
+		padding-top: 250px;
+		padding-left: 900px;
+	}
+footer a
+	{
+		Color: gray;
+		text-shadow: none;
+		list-style: none;
+		text-decoration: underline;
+
+	}
+.link
+	{
+		color: green;
+		font-size: 18px;
+	text-shadow: none;
+	text-decoration: none;
+	display: block;
+	padding-left: 1500px;
+	}
+body h4
+{
+	display: block;
+	padding-left: 1525px;
+}
