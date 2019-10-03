@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+body{
+    background-image: url("korb.jpg");
+    background-color: turquoise;
+}
+#dota{
+    text-align: left;
+    color: blue;
+    font-size: 1cm;
+    font-family: 'Mansalva', cursive;
+    margin-top: 0cm;
+}
+h2 {
+    color: chartreuse;
+    font-size: 4cm;
+    font: italic;
+    text-align: center;
+    margin-top: 6cm;
+}
+#uiui{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+#uiui{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 275px;
+    height: 275px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+#chocolate{
+    width: 50px;
+    height: 50px;
+}
+#text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1cm;
+    margin-top: -3cm;
+    color: chartreuse;
+}   
+#lista{
+    margin-top: -9cm;
+    text-align: right;
+    font-size: 1cm;
+    font-family: 'Mansalva', cursive;
+}
