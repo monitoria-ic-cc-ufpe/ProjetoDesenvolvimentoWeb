@@ -1,0 +1,94 @@
+@keyframes anima{
+    0% {opacity: 0;}
+    25% {opacity : 0.25;}
+    50% {opacity : 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity : 1;}
+}
+
+.body{
+    background-color: #cccccc;
+    font-size: 18px;
+    background-image: url("pattern\ \(2\).jpg");
+}
+
+.paragrafos{
+    color: white;
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    background-color: #282828;
+    border: 3px solid black;
+    position: relative;
+    top: 300px;
+    margin-right: 50%;
+    text-align: left;
+    left: 0px;
+
+}
+.head{
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: #282828;
+    color: white;
+    border-radius: 25px;
+    position: relative;
+}
+
+.head2{
+    font-family: 'Josefin Slab', serif;
+    font-size: 23px;
+    color: white;
+    background-color: #282828;
+    margin-left: auto;
+    border: 3px solid black;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    right: 0px;
+}
+
+.materias{
+    color :white;
+    right: 0px;
+    width: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: auto;
+    background-color: #282828;
+
+}
+
+.imagem{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    border-radius: 50%;
+    animation-name: anima;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+.ladoalado{
+    color: white;
+    background-color: #282828;
+    border: 3px solid black;
+    width: 20%;
+    margin: auto;
+    top: 50px;
+    position:relative;
+}
+
+#wrap{
+    background: #282828;
+    border: 3px solid black;
+    margin-left: 0%;
+}
+
