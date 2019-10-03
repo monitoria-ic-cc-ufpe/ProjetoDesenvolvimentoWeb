@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+.imagensIniciais div {
+    left: 1px;
+    top: 1px;
+    height: 30vw;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.imagemFrente {
+    position: absolute;
+    width: 35vw;
+    height: 30vw;
+}
+.imagemSin{
+    float: right;
+    padding: 0%;
+    width: 120px;
+    animation: aparecerSIN 3s;
+}
+@keyframes aparecerSIN {
+    from {
+        margin-bottom: 0%;
+        margin-right: 100%
+    }
+    to {
+        margin-right: 0%;
+        margin-bottom: 100%;
+    }
+}
+
+.imagemCin {
+    float: left;
+    padding: 0%;
+    width: 120px;
+    animation: aparecerCIN 3s;
+}
+@keyframes aparecerCIN {
+    from {
+        margin-bottom: 0%;
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+        margin-bottom: 100%;
+
+    }
+}
+.imagemTopo {
+    width: 35vw;
+    height: 30vw
+}
+.imagemAnimada {
+    width: 35vw;
+    height: 30vw;
+    animation: aparecerImg 10s;
+}
+@keyframes aparecerImg
+{
+    0%, 5%
+    {
+        opacity: 0;
+    }
+    6%,10%
+    {
+        opacity: 0.1;
+    }
+    11%, 15%
+    {
+        opacity: 0.2;
+    }
+    16%, 20%
+    {
+        opacity: 0.3;
+    }
+    21%, 25%
+    {
+        opacity: 0.4;
+    }
+    26%, 30%
+    {
+        opacity: 0.5;
+    }
+    31%, 40%
+    {
+        opacity: 0.6;
+    }
+    41%, 50%
+    {
+        opacity: 0.7;
+    }
+    51%, 60%
+    {
+        opacity: 0.8;
+    }
+    61%, 75%
+    {
+        opacity: 0.9;
+    }
+    76%, 100%
+    {
+        opacity: 1;
+    }
+}
+.conteudo
+{
+    margin: auto;
+    width: 900px;
+}
+.sobremim
+{
+    padding: 0px 40%;
+    margin: auto;
+    background: aqua;
+    font-size: 35px;
+}
+.texto {
+    margin: auto;
+    font-family: cursive;
+    padding: 50px;
+}
+.disciplina{
+    padding: 0px 40%;
+    margin: auto;
+    background: aqua;
+    font-size: 35px;
+}
+.cadeiras{
+    padding: 50px;
+}
+.jogos{
+    padding: 0px 45%;
+    margin: auto;
+    background: aqua;
+    font-size: 35px;
+}
+.icones{
+    padding: 50px;
+}
+.csgo{
+    height: 35px;
+    width: 32px;
+}
+.lol{
+    height: 35px;
+    width: 32px;
+}
+.tibia{
+    height: 35px;
+    width: 32px;
+}
+.age3{
+    height: 35px;
+    width: 32px;
+}
+.cs16{
+    height: 35px;
+    width: 32px;
+}
+.gta{
+    height: 35px;
+    width: 32px;
+}
+.perda{
+    padding: 0px 45%;
+    margin: auto;
+    background: aqua;
+    font-size: 35px; 
+}
+.editor {
+    padding: 50px;
+    font-size: 20px;
+}
+.video{
+    padding: 0px 45%;
+    margin: auto;
+    background: aqua;
+    font-size: 35px; 
+}
+.videa{
+    left: 1px;
+    top: 1px;
+    height: 30vw;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+
