@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #1e1e22;
+}
+p, h3 {
+    color: #f0f0fa;
+}
+h1, a {
+    color: #dc7800;
+      
+} 
+.font {
+font-family: IBMPlexSans, Arial, sans-serif;
+}
+.FlyLeft {
+    
+    animation-duration: 6s;
+    animation-name: AraAra
+}
+@keyframes AraAra {
+    from {
+        margin-left: 100%;
+        margin-bottom: 100%;
+    }
+    to {
+        margin-left: 50%;
+        margin-bottom: 50%;
+    }
+    to {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+}
+.links{
+animation-duration: 6s;
+animation-name: YareYare;
+font-size: 1.3em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes YareYare {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 0%
+    }
+}
+.FinalMessage {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FlyLeft img {
+    max-height: 200px;
+    transition: transform .2s;
+}
+.FlyLeft img:hover {
+    transform: scale(1.2);
+}
+.FinalMessage img{
+    max-height: 50px;
+}
+.FinalMessage img:hover {
+    transform: scale(1.2);
+}
