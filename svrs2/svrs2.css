@@ -1,0 +1,104 @@
+#topo {
+    display: flex;
+    padding: 1px;
+    min-height: 2px;
+    background: linear-gradient(to bottom, rgb(251, 251, 251) 0%, rgb(255, 253, 253) 100%);
+    box-shadow: 1px 2px 10px 3px rgba(0,0,0,1);
+}
+#imagem{
+    max-width:75px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}#imagens{
+    max-width:75px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+.rodateto  ul li {
+    display: inline;
+}
+.email{
+    font-family: 'Turret Road', cursive;
+    font-size: 200%
+    
+}
+#emails{
+    text-align: right
+}
+.cin{
+    float: right;
+    width: 0%
+   
+}
+#cinn{
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+#listatopo{
+    
+}.direita img {
+    
+    max-height: 300px;
+}
+.direita img:hover {
+   
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    max-height: 300px;
+}
+.direita{
+    float: right
+}
+@keyframes aparecer {
+    from {
+        max-height: 300px;
+    }
+    to {
+        max-height: 400px;
+    }
+}
+
+
+
+
+#nomecurso {
+    color: white;
+    font-family: 'Turret Road', cursive;
+    font-size: 250%;
+  }
+.inicio{
+    text-align: left
+}
+.nome{
+    font-size: 150%;
+}
+.curso{
+    font-size: 70%;
+}
+.text{
+    font-size: 100%;
+    font-family: 'Turret Road', cursive;
+    color: aliceblue
+}
+.s0x2 ul li:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.s0x2 ul a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Turret Road', cursive;
+}
+#dic{
+   font-family: 'Turret Road', cursive;
+    color: aliceblue
+    
+}
