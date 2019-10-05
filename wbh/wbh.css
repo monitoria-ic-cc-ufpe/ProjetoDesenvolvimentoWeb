@@ -1,0 +1,189 @@
+.body
+{
+    background-color: #FBFFF1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.pagina
+{
+    width: 1200px;
+    margin: auto;
+    color: #211E26;
+}
+.blocodotopo
+{
+    position: relative;
+}
+.fotoinicial
+{    
+    position: relative;
+    width: 1200px;
+    height: 990px;;    
+}
+.textotopo
+{
+    float: left;
+    color: cornsilk;
+    font-size: 25px;
+    font-family: monospace, serif;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    animation: aparecertexto 3s;
+}
+@keyframes aparecertexto {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.minhafoto
+{
+    border: solid 2px black;
+    float: right;
+    border-color: cornsilk;
+    border-radius: 90%;
+    position: absolute;
+    right: 30px;
+    top: 250px;    
+    animation: aparecerimagem 6s;
+}
+@keyframes aparecerimagem
+{
+    0%, 30%
+    {
+        opacity: 0;
+    }
+    31%, 60%
+    {
+        opacity: 0.5;
+    }
+    60%, 100%
+    {
+        opacity: 1;
+    }
+}
+.caixadotitulo
+{
+    color: black;
+    background-color: #87BFFF;
+    height: 90px;
+    width: 100; 
+    display: flex;
+}
+.titulo
+{
+    padding: 12px 20px;
+}
+.imagemcomputador
+{
+    display: inline-block;
+}
+.caixadaimagem
+{    
+    padding: 0px 0px;
+    border: solid;
+    border-color: #87BFFF;
+}
+.menu
+{    
+    text-decoration: none;
+    list-style: none;
+    padding: 30px 60px; 
+    float: left;
+    transition: 1.0s;    
+}
+.menu a
+{
+    color: #0000ee;
+}
+.ultimonome
+{
+    font-size: 15px;
+}
+.caixadotopico
+{
+    position: absolute;
+    text-align: justify;
+    width: 1200px;    
+}
+.topico
+{
+    background-color: #ADD7F6;
+    color: black;
+}
+.materias
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.materias a
+{
+    color: #0000ee;
+}
+.materias:hover
+{    
+    color: black;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.blocomaterias
+{
+    border: solid;
+    width: 430px;
+    height: 180px;
+    color: white;
+    background-color: #ADD7F6;
+    border-color: #211E26;
+}
+.blocoblocomaterias
+{
+    padding: 20px 60px;
+}
+.imagenscurso
+{
+   width: 60px;   
+   padding: 20px 70px;
+}
+.blococurso
+{
+    border: solid;    
+    background-color: #ADD7F6;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+.blocoblococurso
+{
+    padding: 20px 60px;
+}
+.contato
+{
+    display: inline-block;
+    padding: 20px 145px;
+    border-radius: 50%;
+    background-color: #ADD7F6;
+    border-color: black;
+    opacity: 1;    
+}
+.contato:hover
+{
+    opacity: 0.5;
+}
+.github
+{
+    padding: 15px 27px;    
+}
+.blococodigos
+{  
+   border: solid;
+   width: 100px;
+   height: 80px;
+   background-color: #ADD7F6;    
+   display: inline-block; 
+}
