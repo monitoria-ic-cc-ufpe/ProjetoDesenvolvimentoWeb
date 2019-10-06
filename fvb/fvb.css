@@ -1,0 +1,68 @@
+body {
+    background-color:#8E2323	;
+    padding: 20px;
+}
+.cadeiras{
+    font-family:courier,arial,helvetica;
+    text-align: left;
+}
+.musicas{
+    text-align: right;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-name: slidein;
+    -moz-animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+      
+  @-moz-keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+        
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+    
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+    
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
+    
+
+.berrante{            
+    width: 500px;
+    margin: 1px 4px 0 0;
+    padding: 3px; 
+    background-color: #502e02;
+    border: 1px solid #e9ad07;
+}
