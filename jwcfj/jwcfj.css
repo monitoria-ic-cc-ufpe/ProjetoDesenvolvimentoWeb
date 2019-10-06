@@ -1,0 +1,65 @@
+#titulo{
+    color:red;
+}
+#tituloblack{
+    color: black;
+    text-align: left;
+    
+}
+#cadeiras{
+    font-size: 30px;
+    text-align: right;
+}
+#frase{
+    color:black;
+    border: 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:red;
+    width: 200px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+#legendadanca2{
+    text-align: right;
+}
+
+.dancingkidgif {
+    width: 33.33%;  
+    float: left;
+        width: 30%;
+        border: solid red;
+        margin: 0.5em;
+        padding: 0.5em;
+      
+}
+.dancinghero {
+    width: 33.33%;  
+    float: right;
+        width: 30%;
+        border: solid black;
+        margin: 0.5em;
+        padding: 0.5em;
+      
+}
+.fumanao{
+    border: solid black;
+}
+.meliorsuperheroiquexiste {
+    width: 45%;
+    height: 44px;
+    
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+   0% {
+    transform: rotateZ(0deg);
+   }
+   100% {
+    transform: rotateZ(360deg);
+   }
+  }
+/**/
