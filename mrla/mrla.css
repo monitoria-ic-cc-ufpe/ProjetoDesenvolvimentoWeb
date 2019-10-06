@@ -1,0 +1,386 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+    background: #E7EAED;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_principal{
+    background-image: url(imagens/bg1.svg);
+    height: 580px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    position: relative;
+}
+
+.logo_cin img{
+    max-width: 180px;
+    margin-left: 230px;
+    margin-top: 20px;
+    padding-left: 0px;
+    width: auto;
+    display: inline-block;
+}
+    
+.logo_ufpe img{
+    max-width: 180px;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 430px;
+}
+
+.menu_1 nav{
+    position: absolute;
+    top: 28px;
+    right: 660px;
+        
+}
+
+.email{
+    position: absolute;
+    top: -5px;
+    right: -220px;
+    color: white;
+    font-family: Segoe UI, arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.celular{
+    position: absolute;
+    top: -5px;
+    right: -430px;
+    color: white;
+    font-family: Segoe UI, arial, sans-serif;
+    font-size: 20px;
+}
+
+.icon_gmail{
+    max-width: 45px;
+    position: absolute;
+    top: 10px;
+    right: -60px;
+}
+
+.icon_celular{
+    max-width: 45px;
+    position: absolute;
+    top: 10px;
+    right: -280px;
+}
+
+
+.menu_1 nav ul{
+    text-align: center;
+    padding-left: 200px;
+    margin: 5px 5px 0 0; 
+}
+.menu_1 nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.menu_1 nav li a{
+    background: rgba(30,0,137,0.1);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+
+.menu_1 nav li a:hover{
+    background: rgba(30,0,137,0.3);
+   }
+
+.nome_principal{
+    text-align: left;
+    padding-left: 300px;
+    color: white;
+    margin-top: 65px;
+}
+
+.nome_principal h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px #4D4D4D;
+}
+
+.nome_principal img{
+    max-width: 360px;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    
+}
+
+@keyframes anda {
+    0%{
+        transform: translateX(0);
+        background: linear-gradient(to right, white, transparent);
+    }
+       
+    100%{
+        transform: translateX(460px);
+        background:linear-gradient(to right, transparent, white);
+    }
+}
+
+#animacao div{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    border-radius: 10px;
+    left: 300px;
+    top:300px;
+}
+
+#animacao div:nth-child(1){
+    animation: anda 2s ease-in-out infinite alternate;
+}
+
+.menu_principal nav ul{
+    text-align-last: center;
+    margin-top: 70px;
+        
+}
+
+.menu_principal nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+       
+}
+
+.menu_principal nav li a{
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 15px; 
+        
+}
+
+.menu_principal nav li a:hover{
+    background: rgba(30,0,137,0.1);   
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);  
+}
+
+.menu_principal nav li a:active{
+    color: blue;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.secao_principal{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 10px;
+    overflow: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.secao_principal ul{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.secao_principal ul li{
+    display: inline-block;
+    list-style: none;
+        
+}
+
+.secao_principal ul li a{
+    padding-left: 50px;
+}
+
+.secao_principal ul li p{
+    padding-left: 100px;
+}
+
+.img_ufpe{
+    height: 40px;
+    position: absolute;
+    left: 360px;
+}
+
+.img_saga{
+    height: 40px;
+    position: absolute;
+    left: 755px;
+}
+
+.img_ingles{
+    height: 40px;
+    position: absolute;
+    left: 350px;
+}
+
+.img_frances{
+    height: 40px;
+    position: absolute;
+    left: 520px;
+}
+
+.img_c{
+    height: 40px;
+    position: absolute;
+    left: 355px;
+}
+
+.img_python{
+    height: 40px;
+    position: absolute;
+    left: 465px;
+}
+
+.img_java{
+    height: 40px;
+    position: absolute;
+    left: 630px;
+}
+
+.img_html{
+    height: 40px;
+    position: absolute;
+    left: 760px;
+}
+
+.img_css{
+    height: 40px;
+    position: absolute;
+    left: 910px;
+}
+
+.img_office{
+    height: 40px;
+    position: absolute;
+    left: 355px;
+}
+
+.img_illustrator{
+    height: 40px;
+    position: absolute;
+    left: 495px;
+}
+
+.img_muse{
+    height: 40px;
+    position: absolute;
+    left: 665px;
+}
+
+.img_xd{
+    height: 40px;
+    position: absolute;
+    left: 810px;
+}
+
+.img_sketch{
+    height: 40px;
+    position: absolute;
+    left: 940px;
+}
+
+.img_photoshop{
+    height: 40px;
+    position: absolute;
+    left: 1090px;
+}
+
+.img_encore{
+    height: 40px;
+    position: absolute;
+    left: 1270px;
+}
+
+.img_indesign{
+    height: 40px;
+    position: absolute;
+    left: 1425px;
+}
+
+.img_premiere{
+    height: 40px;
+    position: absolute;
+    left: 350px;
+}
+
+.img_after{
+    height: 40px;
+    position: absolute;
+    left: 520px;
+}
+
+.img_dream{
+    height: 40px;
+    position: absolute;
+    left: 710px;
+}
+
+.img_maya{
+    height: 40px;
+    position: absolute;
+    left: 910px;
+}
+
+.img_brackets{
+    height: 40px;
+    position: absolute;
+    left: 1055px;
+}
+
+.img_visual{
+    height: 40px;
+    position: absolute;
+    left: 1225px;
+}
+
+.img_flash{
+    height: 40px;
+    position: absolute;
+    left: 1465px;
+}
+
+h3{
+    background: linear-gradient(to right, #136DB6, transparent);
+    font-size: 22px;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+
+
+
+.final{
+    background-image: url(imagens/bg2.svg);
+    height: 150px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    position: relative;
+    
+}
+
+.final p{
+    position: absolute;
+    bottom: 20px;
+    left: 900px;
+}
