@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+h1 {
+    font-family: cursive;
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: 100;
+    text-align: right;
+    text-decoration: none;
+    color :beige;    
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-bottom: 5px;
+}
+div{
+    color:beige;
+    font-family:comic sans-serif;
+}
+body{
+    background-color : beige;
+    background-image: url(city.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+p{
+    text-align-last: right;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100 px;
+    background-color: #fff;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100 px;
+    font-size: 28 px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 28 px;
+    font-family: 'Courier New';
+    color: #1e1e1e;   
+}
+
+h3{
+    text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    .fadeIn {
+        -webkit-animation: fadeIn 3s ease-in-out;
+        -moz-animation: fadeIn 3s ease-in-out;
+        -o-animation: fadeIn 3s ease-in-out;
+        animation: fadeIn 3s ease-in-out;
+        }
+        
+.descricao{
+    margin: 50px 100px;
+    width: 400px;
+}
+
+.descricao2{
+    margin: 30px 50px;
+}
+.descricao-text{
+    font-family: 'Roboto';
+    text-align: left;
+    text-align-last: left;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
