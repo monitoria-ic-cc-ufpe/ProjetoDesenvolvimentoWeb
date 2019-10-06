@@ -1,0 +1,40 @@
+
+#container{
+    width: 960px;
+    height: 600px;
+    margin: 0 auto 0;   
+}   
+.right {
+    color: black;
+    float: right;
+    width: 200px;
+    padding: 15px;
+}
+.left {
+    color: black;
+    float: left;
+    width: 210px;
+    padding: 15px
+}
+img {
+    animation: animação 5s ease-out;
+    border: 5px solid #00BFFF; 
+
+}
+@keyframes animação {
+    0% {
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+footer{
+    clear: both;
+} 
