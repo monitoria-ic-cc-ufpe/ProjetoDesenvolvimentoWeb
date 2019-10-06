@@ -13,7 +13,6 @@ h1, a {
 font-family: IBMPlexSans, Arial, sans-serif;
 }
 .FlyLeft {
-    
     animation-duration: 6s;
     animation-name: AraAra
 }
@@ -49,6 +48,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .FlyLeft img {
+    border-radius: 50%;
     max-height: 200px;
     transition: transform .2s;
 }
@@ -60,4 +60,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 .FinalMessage img:hover {
     transform: scale(1.2);
+}
+ul {
+    color: #f0f0fa;
+    list-style-type: square; 
 }
