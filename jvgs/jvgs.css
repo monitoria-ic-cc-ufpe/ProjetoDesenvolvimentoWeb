@@ -1,0 +1,137 @@
+body{
+    background-color:#f8f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+#topo{
+    margin: 0;
+    text-align: center;
+    background-color:#87cefa;
+    height: 180px;
+    display: block;
+
+   
+}
+#topo h1{
+    margin: 0;
+    margin-right: 60px;
+ 
+}
+#foto{
+    margin-left: 60px;    
+    float: left;
+    width: 25%;
+}
+
+#perfil{
+    width: 180px;
+    float: left;  
+    border: 1px solid;
+    border-radius: 75%
+    
+}
+#perfil:hover{
+    animation-name: aumentarFoto;
+    animation-duration: 2s;    
+    animation-fill-mode:forwards;
+    
+}
+#nome{
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+
+
+#conteudo{
+    padding: 50px;
+    margin: 10px;
+    height: 350px;
+}
+#esquerda{
+    float: left;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding-right: 0;
+    width: 40%;
+    font-size: 22px;
+
+}
+
+#direita{
+    float: right;   
+    margin-left: 0px;
+    margin-right: 100px;
+    padding-left: 0;
+    width: 40%;
+}
+
+
+spam{
+    font-size: 28px;
+}
+P{
+    font-size: 24px;
+}
+p:hover{
+    animation-name: aumentar;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    font-size: 24px;
+    list-style: none;
+}
+li:hover{
+    
+    animation-name: aumentar;
+    animation-duration: 2s;    
+    
+    animation-delay: 0.5s;
+    
+}
+@keyframes aumentar{   
+    to{
+        font-size: 28px;
+        list-style: circle;
+                
+    }
+}
+@keyframes aumentarFoto{
+    from{
+        width: 180px;
+        border: 1px solid;
+        border-radius: 75%
+    }
+    50%{
+        width: 200px;
+        border: 2px solid;
+        border-radius: 45%
+    }
+    100%{
+        width: 200px;
+        border: 4px solid;
+        border-radius: 10%
+    }
+}
+#rodape{
+    margin-left: 5%;
+    clear: both;
+}
