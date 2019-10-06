@@ -1,0 +1,166 @@
+body{
+    width:  100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin: 0 auto;
+    width: 1160px;
+    position: relative;
+}
+.menu-principal{
+    background-color: #24292E;
+    height: 80px;
+}
+h1{
+    float: left;
+    width: 50%;
+    margin: 0;
+    color: white;
+    font-family: 'Mansalva', cursive;
+    font-size: 42px; 
+}
+.redes-sociais ul li{ 
+    
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+.redes-sociais ul{
+    margin: 15px;
+}
+.redes-sociais {
+    height: 50%;
+    float: right;
+}
+ul{ margin: 0;
+    
+    
+}
+.header-2{
+    background-color: #2B3137; 
+    height: 306px;
+    
+}
+.bio{
+    margin-right: 0px;
+    width: 50%;
+    padding: 0px;
+    float: left;
+    
+    
+}
+.imagem{
+    float: right;
+    height: 100%;
+    width: 50%;
+   
+}
+.imagem ul{ 
+    margin-left: 20px;
+    display: inline-block;
+    margin: 15px;
+}
+h2{
+    padding-top: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    width: 50%;   
+}
+p{  
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    padding-top: 60px; 
+}
+.header-3{
+    background-color: white;
+    height: 250px;
+    
+
+}
+/*h3{
+    color: #24292E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    float: right;
+    padding-top: 10px;
+     
+}
+h4{
+    color: #24292E;
+    font-family: 'Mansalva', cursive;
+    font-size: 18px;
+    float: right;
+    padding-top: 20px; 
+}*/
+.materias{
+    padding-top: 80px; 
+    width: 50%;
+   
+}
+.materias ul{
+    list-style: none;
+    /*float: right;*/
+    color:#2B3137;
+    padding-left: 0px; 
+}
+a:link{
+    color:#2B3137;
+    text-decoration: none;
+}
+a:visited{
+    color:#2B3137;
+    text-decoration: none;
+}
+/*.mundo{
+    float:left;
+    padding-bottom: 100px; 
+}*/
+.header-4{
+    background-color: #24292E;
+    height: 301px;
+    float:center;
+
+    
+}
+h5{
+    float: center;
+    margin:0px;
+    width: 100%;
+    
+    padding-top: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    
+}
+#h5{
+    color: white;
+}
+h6{
+    float: center;
+    width: 100%;
+    color: white;
+    font-family: 'Mansalva', cursive;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+@keyframes print {
+    from {color: white;}
+    to {color: #61FFB5;}
+}
+
+h2{
+    animation: print 5s infinite;
+}
+    
