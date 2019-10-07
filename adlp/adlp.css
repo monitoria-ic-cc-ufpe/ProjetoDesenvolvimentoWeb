@@ -1,0 +1,106 @@
+/*
+--Estilos CSS - PROJETO WEB
+*/
+
+
+.main{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*
+-- Padrões e Reset
+*/
+h1, h2, h4, h5, h6{
+    font-weight: normal;
+}
+/*
+-- Tipografia e Cores
+*/
+body{
+    color: #333333;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans",
+    "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+a:link{
+    color: #0f599f;
+}
+a:visited{
+    color: 666;
+}
+a:hover{
+    color: 000;
+    text-decoration: none;
+}
+a:focus{
+    outline: 1px dotted #F00;
+}
+a:active{
+    color: #F00;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+/*
+-- Estrutura
+*/
+.content{
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+#content h3{
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+#content ol{
+    font-size: 16px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+#content li{
+    margin-bottom: 0.3em;
+}
+/*
+--Estilos específicos de Seção
+*/
+#second img{
+    width: 500px;
+    height: 400px;
+    float: right;
+    max-width: 200px;
+    max-height: 290px;
+    width: auto;
+    height: auto;
+}
+/*
+--Formulários
+*/
+
+
+/*
+--Tabelas
+*/
+
+/*
+--Classes de Uso Geral
+*/
