@@ -1,0 +1,97 @@
+body  {
+      background: url(capa/foto.png);
+}
+
+
+#container  {
+    width: 780px;
+    margin: auto;
+    border: 10px  solid #ffffff;
+    padding: 60px;
+    background: #7cfc00; 
+}
+
+#p  {
+     text-decoration: center;
+     font-weight: bold;
+}
+
+h1  {
+    height: 90px;
+    background: url(capa/fot.png) no-repeat center;
+}
+
+
+header nav  {
+   text-align: center;
+}
+
+a  {
+  text-decoration: none;
+  font-weight: bold;
+  color: #663300;
+}
+ 
+a:hover  {
+    text-decoration: underline;
+}
+
+*{margim: 0; padding: 0;}
+
+#menu ul{
+    padding:12px;
+    margin: 0px;
+    background-color:0;
+    list-style: nome;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    background-color:0;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid 0;
+}
+
+/* animação */
+@keyframes gifAparece {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.gif-home {
+    animation-name: gifAparece;
+    animation-duration: 5s;
+}
+
+/*fonte */
+.p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#conteudo-disciplina {
+    position: relative;
+}
+
+#imgpos {
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    height: 390px;
+    margin-top: -400px;
+}
+
+
+
+
+
