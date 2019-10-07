@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@font-face{
+    font-family: Material_Sans;
+    src: url('Material_Sans.ttf');
+}
+
+
+
+/*   /////////////////////////////    CONTATOS    ///////////////////////////////////      */
+
+/*main*/
+body{
+    background-image: url(MD.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#barrac{
+    width: 150px;
+    height: 650px;
+    float: left;
+    background-color: rgb(10, 224, 224);
+    font-family: Material_Sans;
+    color: darkslategrey;
+}
+#headc{
+    width: 1150px;
+    height: 75px;
+    float: left;
+    font-family: Material_Sans;
+    color: rgb(10, 224, 224);
+    text-align: right;
+}
+
+
+/*cin*/
+.botaocinc{
+    border: 10px transparent;
+    font-family: Material_Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    color: rgb(12, 137, 196);
+    background-color: transparent; 
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.botaocinc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+.botaocinc span:after {
+    content: 'ir para:';
+    font-size: 15px;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 25px;
+    transition: 0.6s;
+}
+
+.botaocinc:hover span {
+    padding-left: 50px;
+    font-size: 15px;
+}
+.botaocinc:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
+
+/*⚌☰⏏home*/
+.botaohomec{
+    border: 10px solid darkslategrey;
+    font-family: Material_Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    color: rgb(10, 224, 224);
+    background-color: darkslategrey; 
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.botaohomec span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+.botaohomec span:after {
+    content: '☾';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 25px;
+    transition: 0.6s;
+}
+
+.botaohomec:hover span {
+    padding-right: 25px;
+}
+.botaohomec:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+/*contato*/
+.botaocontatoc{
+    border: 10px solid darkslategrey;
+    font-family: Material_Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    color: rgb(10, 224, 224);
+    background-color: darkslategrey; 
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.botaocontatoc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+.botaocontatoc span:after {
+    content: '✆';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 25px;
+    transition: 0.6s;
+}
+
+.botaocontatoc:hover span {
+    padding-right: 25px;
+}
+.botaocontatoc:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+/*cadeiras*/
+.botaocadeirasc{
+    border: 10px solid darkslategrey;
+    font-family: Material_Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    color: rgb(10, 224, 224);
+    background-color: darkslategrey; 
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.botaocadeirasc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+.botaocadeirasc span:after {
+    content: '⚒';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 25px;
+    transition: 0.6s;
+}
+
+.botaocadeirasc:hover span {
+    padding-right: 25px;
+}
+.botaocadeirasc:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*mais*/
+.botaomaisc{
+    border: 10px solid darkslategrey;
+    font-family: Material_Sans;
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    color: rgb(10, 224, 224);
+    background-color: darkslategrey; 
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.botaomaisc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+}
+.botaomaisc span:after {
+    content: '+';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 25px;
+    transition: 0.6s;
+}
+
+.botaomaisc:hover span {
+    padding-right: 25px;
+}
+.botaomaisc:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.fa {
+  padding: 55px;
+  font-size: 40px;
+  width: 50px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd3620;
+  color: white;
+  float: medium;
+}
+
+</style>
+
+</head>
+<body>
+
+        <div id = "barrac">
+                <h1 class = "titulo">jvaa</h1>
+                
+                <a href = "index.html">
+                <button class = "botaohomec"><span>home</span></button>
+                </a>
+                
+                <a href = "contato.html">
+                <button class = "botaocontatoc" ><span>contato </span></button>
+                </a>
+          
+                <a href = "cadeiras.html">
+                <button class = "botaocadeirasc"><span>cadeiras </span></button>
+                </a>
+                
+                <a href = "mais.html">
+                <button class = "botaomaisc"><span>mais </span></button>
+                </a>
+                
+        </div>
+        <div id = "headc">
+                <a href = "https://www2.cin.ufpe.br/site/index.php">
+                    <button class = "botaocinc"><span>CIn-Ufpe</span></button>
+                </a>
+        </div>
+
+          
+            <a href="gmail.html" class="fa fa-google"></a>
+           
+            
+</body>
+</html> 
+
