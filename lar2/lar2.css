@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background: url(bg1.jpg) center;
+}
+#title {
+    line-height: 2.5;
+    height: 130px;
+    border-radius: 20px;
+}
+#nome {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+#introducao {
+    float: left;
+    color:white;
+    width: 50%;
+    font-size: 25px;
+}
+#cadeiras{
+    color:white;
+}
+#links{
+    float: right;
+    color:white;
+    width: 50%;
+    font-size: 25px;
+}
+.fotos {
+    height: 50px;
+    width: 50px;
+}
