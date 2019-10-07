@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(243, 203, 222);
+}
+.titulo{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+    text-decoration:snow;
+    background-color:snow;
+    border-style: dotted;
+    border-width: medium;
+}
+.abelha{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+.link{
+    margin-top: 75px;
+    text-decoration:snow;
+    background-color:snow;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+.gato{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 75px;
+    position: relative;
+    right:0px;
+    bottom:0px;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(240, 169, 224);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+  }
+  .emoji{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 75px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    border-style: dotted;
+  }
