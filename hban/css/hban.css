@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Squada;
+    src: url('../fonts/SquadaOne-Regular.ttf');
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.format {
+    display: grid;
+    grid-template-columns: 1fr 750px;
+    grid-template-rows: 100vh;
+    background-color: white;
+}
+
+.menu-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #167597;
+    opacity: 0.8;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.menu-nav {
+    height: 50px;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    /* opacity: 0.8; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-config {
+    /* font-size: 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links-config-select {
+    /* font-size: 20px; */
+    height: 50px;
+    background-color: #167597;
+    display: flex;
+    align-items: center;
+    font-family: Squada;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#links-select {
+    font-family: Squada;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-content {
+    grid-row: 2/3;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/IMG-20190111-WA0036.jpg");
+    background-size: cover;
+
+}
+
+
+.content2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/IMG_20191003_085526.jpg");
+    background-size: cover;
+    opacity: 0.75;
+
+}
+
+.content3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/fundo-contato-min.jpg");
+    background-size: cover;
+    opacity: 0.75;
+
+}
+
+.social-icons {
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+}
+
+.icon{
+    height: 60px;
+    margin-left: 50px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+    
+}
+
+#face {
+    border-radius: 15px;
+}
+
+#img-perfil {
+    height: 100vh;
+    width: 550px;
+    right: 0;
+    background-size: auto;
+}
+
+.title-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    /* font-weight: bold; */
+    font-family: Squada;
+}
+
+.title-general {
+    font-size: 35px;
+    margin-bottom: 20px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+
+.text-description {
+    font-size: 25px;
+    text-align: justify;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+
+#text-content {
+    font-size: 20px;
+    /* font-style: inherit; */
+    text-align: justify;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
