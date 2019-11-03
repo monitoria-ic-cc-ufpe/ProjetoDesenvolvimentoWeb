@@ -1,0 +1,84 @@
+body {
+    color:white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b22222;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:white;
+    letter-spacing: 1px;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    color:orangered;
+    padding: 50px 50px 0px;
+}
+#wrap{
+    width: 1000px;
+    margin: auto;
+    background: #232b2b;
+}
+header h1{
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.txt {
+    width: 650px;
+    text-align: justify;
+    padding: 10px;
+}
+#ket{
+    margin: left;
+    padding-left: 150px;
+}
+#dog {
+    margin: right;
+    padding-left: 250px;
+}
+#ket:hover{
+        margin: auto;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+#dog:hover{
+    margin: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+#ias:hover{
+    transform:rotateX(25deg) rotateY(-25deg);
+    transform:translateY(25-(5%));
+}
+#ias{
+    float: right;
+    padding: 10px 10px 10px 10px;
+}
+#ter{
+    padding: 10px;
+}
